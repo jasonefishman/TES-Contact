@@ -9,6 +9,10 @@ body {
   font-family: VezusLight;
 }
 
+.col-md-4 img {
+	padding-bottom: 20px;
+}
+
 button {
 	text-align: center;
 	background: transparent;
@@ -20,6 +24,7 @@ button {
 
 button:hover {
 	background: #007AA3;
+	color: white;
 }
 
 a {
@@ -28,9 +33,6 @@ a {
 }
 
 a:hover {
-	background: solid;
-	background-color: #007AA3;
-	color: white;
 	text-decoration: none;
 }
 .col-md-4 {
@@ -54,4 +56,8 @@ a:hover {
 .col-md-2 img {
 	width: 40%;
 	padding-top: 20px;
+}
+
+#email:hover {
+	background-color: none;
 }
