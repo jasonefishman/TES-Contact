@@ -1,0 +1,57 @@
+@font-face {
+font-family: VezusLight;
+src: url('/Users/jasonfishman/Documents/TES Website/TES-Contact/VezusLight2.otf') format("opentype");
+}
+
+body {
+  padding-top: 200px;
+  background-image: url('/Users/jasonfishman/Documents/TES Website/TES-Contact/images/upfeathers.png');
+  font-family: VezusLight;
+}
+
+button {
+	text-align: center;
+	background: transparent;
+	border: none;
+	font-size: 26px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+button:hover {
+	background: #007AA3;
+}
+
+a {
+	color: #007AA3;
+	text-decoration: none;
+}
+
+a:hover {
+	background: solid;
+	background-color: #007AA3;
+	color: white;
+	text-decoration: none;
+}
+.col-md-4 {
+	padding-left: 0px;
+	padding-right: 100px;
+}
+
+.col-md-8 {
+	padding-left: 50px;
+}
+
+#contactinfo {
+	padding-bottom: 20px;
+}
+
+.col-md-2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.col-md-2 img {
+	width: 40%;
+	padding-top: 20px;
+}
